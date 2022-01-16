@@ -1,0 +1,10 @@
+{
+    "extension_name": {
+        "message": "Classic Reddit Extension",
+        "description": "The display name for the extension."
+    },
+    "extension_description": {
+        "message": "Switches to the 'classic' look, applies additional visual tweaks to fit a mobile screen, and reduces bloat.",
+        "description": "Description of what the extension does."
+    }
+}
