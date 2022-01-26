@@ -10,8 +10,8 @@ body > .footer-parent {
 }
 
 body {
-    display: flex;
-    flex-direction: column;
+    display: flex !important;
+    flex-direction: column !important;
 }
 
 body > .header {
@@ -26,8 +26,7 @@ body > .side {
     max-height: 99999px;
     margin: 0 auto 40px !important;
 }
-
-body > .side:not(visible) {
+body > .side:not(.visible) {
     padding: 0 !important;
     max-height: 0px;
     margin: 0px !important;
