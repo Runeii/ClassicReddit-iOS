@@ -22,8 +22,7 @@ browser.tabs.onUpdated.addListener(async (tabId) => {
     }
 
     const url = new URL(target);
-    const sourceURL = url.href;
-    url.host = OLD_REDDIT;
+    url.host = await getSetting('domain', 'old.reddit.com');
 
     browser.tabs.update(tabId, {
         loadReplace: true,

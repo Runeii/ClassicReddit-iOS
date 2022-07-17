@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		490FAA7228840654002270B5 /* browserAction in Resources */ = {isa = PBXBuildFile; fileRef = 490FAA7128840654002270B5 /* browserAction */; };
+		490FAA7428840933002270B5 /* shared.js in Resources */ = {isa = PBXBuildFile; fileRef = 490FAA7328840933002270B5 /* shared.js */; };
 		497BE4E52795E63400424BE0 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = 497BE4E42795E63400424BE0 /* content.js */; };
 		497BE4E72795E69A00424BE0 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = 497BE4E62795E69A00424BE0 /* background.js */; };
 		497BE4E92795E8D700424BE0 /* custom_styles.css in Resources */ = {isa = PBXBuildFile; fileRef = 497BE4E82795E8D700424BE0 /* custom_styles.css */; };
@@ -51,6 +53,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		490FAA7128840654002270B5 /* browserAction */ = {isa = PBXFileReference; lastKnownFileType = folder; path = browserAction; sourceTree = "<group>"; };
+		490FAA7328840933002270B5 /* shared.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = shared.js; sourceTree = "<group>"; };
 		497BE4E42795E63400424BE0 /* content.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = content.js; sourceTree = "<group>"; };
 		497BE4E62795E69A00424BE0 /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = background.js; sourceTree = "<group>"; };
 		497BE4E82795E8D700424BE0 /* custom_styles.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = custom_styles.css; sourceTree = "<group>"; };
@@ -147,10 +151,12 @@
 		498C384327949D150067E244 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				490FAA7128840654002270B5 /* browserAction */,
 				498C384427949D150067E244 /* _locales */,
 				498C384627949D150067E244 /* images */,
 				498C384827949D150067E244 /* manifest.json */,
 				497BE4E42795E63400424BE0 /* content.js */,
+				490FAA7328840933002270B5 /* shared.js */,
 				497BE4E62795E69A00424BE0 /* background.js */,
 				497BE4E82795E8D700424BE0 /* custom_styles.css */,
 			);
@@ -254,7 +260,9 @@
 				497BE4E92795E8D700424BE0 /* custom_styles.css in Resources */,
 				497BE4E52795E63400424BE0 /* content.js in Resources */,
 				498C384727949D150067E244 /* images in Resources */,
+				490FAA7428840933002270B5 /* shared.js in Resources */,
 				498C384927949D150067E244 /* manifest.json in Resources */,
+				490FAA7228840654002270B5 /* browserAction in Resources */,
 				497BE4E72795E69A00424BE0 /* background.js in Resources */,
 				498C384527949D150067E244 /* _locales in Resources */,
 			);
@@ -507,7 +515,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 4;
+				CURRENT_PROJECT_VERSION = 5;
 				DEVELOPMENT_TEAM = JU56H8W746;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Classic Reddit/Info.plist";
@@ -522,7 +530,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 2.1;
+				MARKETING_VERSION = 2.2;
 				OTHER_LDFLAGS = (
 					"-framework",
 					SafariServices,
@@ -546,7 +554,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 4;
+				CURRENT_PROJECT_VERSION = 5;
 				DEVELOPMENT_TEAM = JU56H8W746;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Classic Reddit/Info.plist";
@@ -561,7 +569,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 2.1;
+				MARKETING_VERSION = 2.2;
 				OTHER_LDFLAGS = (
 					"-framework",
 					SafariServices,
